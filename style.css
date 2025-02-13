@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.game-status {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    padding-left: 200px;
+}
+.game-canvas {
+    border: 2px solid #000;
+}
